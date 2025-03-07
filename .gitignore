@@ -1,1 +1,27 @@
+# Global .gitignore (root directory)
+
+# Python virtual environment
 myvenv
+
+# React app specific .gitignore (comment-app folder)
+# dependencies
+/comment-app/node_modules
+/comment-app/.pnp
+/comment-app.pnp.js
+
+# testing
+/comment-app/coverage
+
+# production
+/comment-app/build
+
+# misc
+/.DS_Store
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
