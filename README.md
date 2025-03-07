@@ -25,3 +25,6 @@ Follow these steps to set up and run the project:
 2. Start frontend
    ```sh
    npm start
+
+### Viewing app
+1. Now go to localhost:3000 and view it!
